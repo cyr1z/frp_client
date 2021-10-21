@@ -1,5 +1,4 @@
 FROM alpine:3
-MAINTAINER Sykchin Artem
 
 ENV FRP_VERSION=0.37.1
 ENV CPU=arm
