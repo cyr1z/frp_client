@@ -2,7 +2,8 @@ FROM alpine:3
 MAINTAINER Sykchin Artem
 
 ENV FRP_VERSION=0.37.1
-ENV FRP_URL=https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz
+ENV CPU=arm
+ENV FRP_URL=https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_${CPU}.tar.gz
 
 WORKDIR /opt/frp
 
